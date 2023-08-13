@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="twitch.css">
+  <title>Twitch</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="left">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" height="1.25em"
+        viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+        <style>
+          svg {
+            fill: #9448ff
+          }
+        </style>
+        <path
+          d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z" />
+      </svg> 
+      <a href="#" class="gozat">Gözat</a>
+      <svg type="color-fill-current" width="20px" height="20px" version="1.1" viewBox="0 0 20 20" x="0px" y="0px" class="header-hidden-svg"><g><path d="M5 2a2 2 0 00-2 2v8a2 2 0 002 2V4h8a2 2 0 00-2-2H5z"></path><path fill-rule="evenodd" d="M7 8a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H9a2 2 0 01-2-2V8zm2 0h6v8H9V8z" clip-rule="evenodd"></path></g></svg>
+      <div class="menu">
+        <a href="#" style="color:#0e0e10 ;"><i class="fa-solid fa-ellipsis-vertical fa-lg"></i></a>
+      </div>
+    </div>
+
+
+    <div class="middle">
+      <input type="text" placeholder="  Ara">
+      <button><i class="fa-solid fa-magnifying-glass fa-xl"></i></button>
+
+    </div>
+
+
+    <div class="right">
+      <i class="fa-regular fa-message fa-lg"></i>
+      <button class="signin">Oturum Aç</button>
+      <button class="signup">Kayıt ol</button>
+      <i class="fa-regular fa-user fa-lg"></i>
+
+    </div>
+  </header>
+  <div class="main">
+    <div class="mleft">
+      <div class="suggested">
+        <p class="suggested-p" style="padding-right: 45px;">ÖNERİLEN KANALLAR</p> <br>
+        <i class="fa-solid fa-arrow-left fa-lg" style="color: #0e0e10; justify-content: center;"></i>
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="k3soju"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/50e4e7b2-ae1c-43dd-ae3a-243de06a9034-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">k3soju</p>
+            <p style="font-size: 13px; color: #576171;">Teamfight Tactics</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">20,1 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="Uthenera"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/033a124c-eb5c-4b86-a201-ab328cfdcf95-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">Uthenera</p>
+            <p style="font-size: 13px; color: #576171;">Teamfight Tactics</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">3,4 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="Naru"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/24582097-bd6d-4e91-ae4e-666c429b04bb-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">Naru</p>
+            <p style="font-size: 13px; color: #576171;">League of Legends</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">1,5 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="dishsoaptft"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/ad61b76e-0177-44a0-9913-ec443c6b0ac9-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">dishsoaptft</p>
+            <p style="font-size: 13px; color: #576171;">Teamfight Tactics</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">1,2 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="larsahan"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/7da47113-70c4-4acc-b4d2-35368afdef11-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">larsahan</p>
+            <p style="font-size: 13px; color: #576171;">League of Legends</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">343 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="idlemonkk"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/b9b6f70b-8383-4ef9-b9d6-e8b6d3174408-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">idlemonkk</p>
+            <p style="font-size: 13px; color: #576171;">Teamfight Tactics</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;"> 327 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="Dantes"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/32cb16e8-4403-4aef-a78a-eee9857699c3-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">Dantes</p>
+            <p style="font-size: 13px; color: #576171;">League of Legends</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">12,1 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="aimdll__"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/05f2603b-deeb-43de-b154-c209970d9aab-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">aimdll__</p>
+            <p style="font-size: 13px; color: #576171;">VALORANT</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">300 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="superior"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/f56c977c-70a2-4b7d-ab5b-1a40a2aa59f9-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">superior</p>
+            <p style="font-size: 13px; color: #576171;">VALORANT</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">309 B</p>
+        </div>
+
+      </div>
+      <div class="all">
+        <div class="img-text">
+          <div class="image">
+            <img class="imagee" alt="Taylor_Jevaux"
+              src="https://static-cdn.jtvnw.net/jtv_user_pictures/6a571012-8dc4-41c2-a850-244a33e3b900-profile_image-70x70.png">
+          </div>
+          <div class="text">
+            <p style="font-weight: bold; font-size: 13px;">Taylor_Jevaux</p>
+            <p style="font-size: 13px; color: #576171;">Havuz, Küvet ve Plaj</p>
+          </div>
+        </div>
+        <div class="numbers">
+          <i class="fa-solid fa-circle fa-2xs" style="color: #eb0400;"></i>
+          <p style="font-size: 13px; padding-left: 5px;">6,8 B</p>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="all-middle">
+        <div class="topmiddle">
+          <button class="mbutton"><i class="fa-solid fa-angle-left fa-lg"></i></button>
+          <button class="mbutton"><i class="fa-solid fa-angle-right fa-lg"></i></button>
+        </div>
+
+        <div class="mmiddle">
+          <div class="mtext">
+            <p class="p"> Seveceğinizi düşündüğümüz <span class="span">Canlı kanallar</span></p>
+          </div>
+          <div class="videos">
+            <div class="video">
+              <img class="videoimg one" src="live_user_shrbrk-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/fd2ce18f7cbc9dc7-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Regaton: abi sıra bende mi?</p>
+                  <p style="color: #53535f;">ABeautifulDeath</p>
+                  <p class="type">Teamfight Tactics</p>
+                  <button class="button-text">Türkçe</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="video">
+              <img class="videoimg two" src="live_user_toqtir-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea60d2af-4760-489d-b7e3-9d238dcb3e83-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">DEMİRDEN RADYANTA 9.BÖLÜM</p>
+                  <p style="color: #53535f;">gosaydam</p>
+                  <p class="type">VALORANT</p>
+                  <button class="button-text">Türkçe</button>
+                  <button class="button-text">fps</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-three">
+              <img class="videoimg three" src="live_user_blushh-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/3f99dad9-265d-439e-ae00-4e5ee79d7352-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Challengeroski SUBATHON!</p>
+                  <p style="color: #53535f;">Canoskixd</p>
+                  <p class="type">Sadece Sohbet</p>
+                  <button class="button-text">Türkçe</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-four">
+              <img class="videoimg four" src="live_user_pubg_battlegroundstr-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/4d745ef1-48ca-48cb-b7af-976282391f76-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">RANK MASTER TRY HARD!</p>
+                  <p style="color: #53535f;">Wandayss</p>
+                  <p class="type">PUBG: BATTLEGRUNDS</p>
+                  <button class="button-text">Türkçe</button>
+                  <button class="button-text">pro</button>
+                  <button class="button-text">PUBG</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="part">
+            <div class="leftpart">
+
+            </div>
+
+            <div class="middlepart">
+              <p class="part-text">Daha fazla göster
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+
+            <div class="rightpart">
+
+            </div>
+
+          </div>
+          <div class="mtext">
+            <p class="p"> Neler revaçta?</p>
+          </div>
+          <div class="videos">
+            <div class="video">
+              <img class="videoimg five" src="https://static-cdn.jtvnw.net/previews-ttv/live_user_chess24tr-440x248.jpg"
+                alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/4b7903f5-84c6-4a4d-94be-e5a47a418777-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Türk Satranççılar Tarih Yazıyor!</p>
+                  <p style="color: #53535f;">chess24tr</p>
+                  <p class="type">Chess</p>
+                  <button class="button-text">Türkçe</button>
+                  <button class="button-text">DropEtkin</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="video">
+              <img class="videoimg six" src="live_user_naru-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/8111888b-17e2-43b6-ac5f-10bb3451b130-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">TES VS: WBG - 2023</p>
+                  <p style="color: #53535f;">LPL</p>
+                  <p class="type">League of Legends</p>
+                  <button class="button-text">English</button>
+                  <button class="button-text">Esports</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-seven">
+              <img class="videoimg seven" src="live_user_domper1999-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/50e4e7b2-ae1c-43dd-ae3a-243de06a9034-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">hitting rank 1 before shurima cup</p>
+                  <p style="color: #53535f;">k3soju</p>
+                  <p class="type">Teamfight Tactics</p>
+                  <button class="button-text">English</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-eight">
+              <img class="videoimg eight" src="live_user_ticklishtodd-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/b9b6f70b-8383-4ef9-b9d6-e8b6d3174408-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Bi camille tadı vermiyor ama dimi !</p>
+                  <p style="color: #53535f;">idlemonkk</p>
+                  <p class="type">Teamfight Tactics</p>
+                  <button class="button-text">Türkçe</button>
+                  <button class="button-text">Turkish</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="part">
+            <div class="leftpart">
+
+            </div>
+
+            <div class="middlepart">
+              <p class="part-text">Daha fazla göster
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+
+            <div class="rightpart">
+
+            </div>
+
+          </div>
+
+          <div class="mtext">
+            <p class="p"> Seveceğinizi düşündüğümüz <span class="span">Kategoriler</span></p>
+          </div>
+          <div class="videos">
+            <div class="video-categories">
+              <img alt="Sadece Sohbet kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/509658-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">Sadece Sohbet</p>
+                  <p class="type">363,1 B izleyici</p>
+                  <button class="button-text">IRL</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="video-categories">
+              <img alt="VALORANT kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/516575-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">VALORANT</p>
+                  <p class="type">79,3 B izleyici</p>
+                  <button class="button-text">Nişancı</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories">
+              <img alt="League of Legends kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/21779-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">League of Legends</p>
+                  <p class="type">1271,1 B izleyici</p>
+                  <button class="button-text">Rol</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories">
+              <img alt="Teamfight Tactics kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/513143-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">Teamfight Tactics</p>
+                  <p class="type">46,7 B izleyici</p>
+                  <button class="button-text">Strateji</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories video-categories-five">
+              <img alt="Counter-Strike: Global Offensive kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/32399_IGDB-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">Counter Strike</p>
+                  <p class="type">75 B izleyici</p>
+                  <button class="button-text">Nişancı</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories video-categories-six">
+              <img alt="Grand Theft Auto V kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/32982_IGDB-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">Grand Theft Auto V</p>
+                  <p class="type">107,6 B izleyici</p>
+                  <button class="button-text">Nişancı</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories video-categories-seven">
+              <img alt="7 Days to Die kapak resmi" class="videoimg"
+                src="https://static-cdn.jtvnw.net/ttv-boxart/271304_IGDB-188x250.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">7 Days to Die</p>
+                  <p class="type">10,7 B izleyici</p>
+                  <button class="button-text">Nişancı</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video-categories video-categories-eight">
+              <img alt="Casino Jackpot kapak resmi" class="videoimg" src="casino-jackpot.jpg">
+              <div class="video-bottom">
+                <div class="video-text">
+                  <p class="firstp">Casino Jackpot</p>
+                  <p class="type">24,2 B izleyici</p>
+                  <button class="button-text">Strateji</button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="part">
+            <div class="leftpart-add">
+            </div>
+          </div>
+
+          <div class="mtext">
+            <p class="p"> Seveceğinizi düşündüğümüz Öne Çıkan Klipler </p>
+          </div>
+          <div class="videos">
+            <div class="video">
+              <img class="videoimg one" src="AT-cm_L2O3loGv3729mcYbz8lScQ-preview-480x272.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile" alt="ohnePixel"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/5742b015-e6ed-4f7c-a1dd-87cd88fe1eb9-profile_image-50x50.png">
+                <div class="video-text">
+                  <p class="firstp">quickopen</p>
+                  <p style="color: #53535f;">ohnePixel</p>
+                  <p class="type">Klibi oluşturan: budeycs
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="video">
+              <img class="videoimg two" src="AT-cm_CgZSFhS-Z4fxNgAS1aH3Iw-preview-480x272.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile" alt="XoaR33"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/8afc1c01-ca1d-4b56-b63c-ee322d79c75e-profile_image-50x50.png">
+                <div class="video-text">
+                  <p class="firstp">Koşmuyormuş</p>
+                  <p style="color: #53535f;">XoaR33</p>
+                  <p class="type">Klibi oluşturan: xoar33
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-eleven">
+              <img class="videoimg three" src="AT-cm_9rF0nfr6zDT_i2xur7V2Aw-preview-480x272.jpg"
+                alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile" alt="Berrie"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/cdd2fb8f-ec24-40a7-b92b-90a9a349f76c-profile_image-50x50.png">
+                <div class="video-text">
+                  <p class="firstp">neeeee</p>
+                  <p style="color: #53535f;">Berrie</p>
+                  <p class="type">Klibi oluşturan: zhellwedro</p>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-twelve">
+              <img class="videoimg four" src="AT-cm_g0x48jAKX7euTbxPFqb5BA-preview-480x272.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile" alt="JensuVR"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/8cdd3949-0c6c-457f-baea-13d9c22b1359-profile_image-50x50.png">
+                <div class="video-text">
+                  <p class="firstp">Joji?</p>
+                  <p style="color: #53535f;">JensuVR</p>
+                  <p class="type">Klibi oluşturan: jensuvr</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="part">
+            <div class="leftpart">
+
+            </div>
+
+            <div class="middlepart">
+              <p class="part-text">Daha fazla göster
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+
+            <div class="rightpart">
+
+            </div>
+
+          </div>
+
+          <!-- Buradan sonrası sayfa devamı olsun diye yukarıdaki kodların kopyalanmış halidir. -->
+          <!-- The codes after here are copied from the previous codes so that the page continues. -->
+
+
+          <div class="mtext">
+            <p class="p"> Önerilen <span class="span">Sadece Sohbet</span> kanalları</p>
+          </div>
+          <div class="videos">
+            <div class="video">
+              <img class="videoimg one" src="live_user_shrbrk-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/fd2ce18f7cbc9dc7-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Regaton: abi sıra bende mi?</p>
+                  <p style="color: #53535f;">ABeautifulDeath</p>
+                  <button class="button-text">Türkçe</button>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="video">
+              <img class="videoimg two" src="live_user_toqtir-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/ea60d2af-4760-489d-b7e3-9d238dcb3e83-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">DEMİRDEN RADYANTA 9.BÖLÜM</p>
+                  <p style="color: #53535f;">gosaydam</p>
+                  <button class="button-text">Türkçe</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-three">
+              <img class="videoimg three" src="live_user_blushh-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/3f99dad9-265d-439e-ae00-4e5ee79d7352-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">Challengeroski SUBATHON!</p>
+                  <p style="color: #53535f;">Canoskixd</p>
+                  <button class="button-text">Türkçe</button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="video video-four">
+              <img class="videoimg four" src="live_user_pubg_battlegroundstr-440x248.jpg" alt="Teamfight Tactics">
+              <div class="video-bottom">
+                <img class="profile"
+                  src="https://static-cdn.jtvnw.net/jtv_user_pictures/4d745ef1-48ca-48cb-b7af-976282391f76-profile_image-50x50.png"
+                  alt="ABeautifulDeath">
+                <div class="video-text">
+                  <p class="firstp">RANK MASTER TRY HARD!</p>
+                  <p style="color: #53535f;">Wandayss</p>
+                  <button class="button-text">Türkçe</button>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="part">
+            <div class="leftpart">
+
+            </div>
+
+            <div class="middlepart">
+              <p class="part-text">Daha fazla göster
+                <i class="fa-solid fa-angle-down"></i>
+              </p>
+            </div>
+
+            <div class="rightpart">
+
+            </div>
+
+          </div>
+
+          <div class="last-logo">
+            <img alt="https://static.twitchcdn.net/assets/An-AmazonCompanyBlack-e5a905ee39488e6a10cf.png" height="15"
+              class="amazon-text"
+              src="https://static.twitchcdn.net/assets/An-AmazonCompanyBlack-e5a905ee39488e6a10cf.png">
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+
+
+
+  </div>
+
+  <footer class="footer">
+    <div class="cat-p">
+      <img alt="CoolCat" class="coolcat" src="https://static.twitchcdn.net/assets/coolcat-edacb6fbd813ce2f0272.png">
+      <p class="footer-p"><span class="footer-span">Twitch topluluğuna katılın! </span> <span
+          class="footer-span-two">Dilediğiniz yerden en iyi canlı yayınları keşfedin</span></p>
+    </div>
+    <button class="footer-signup">Kaydol</button>
+  </footer>
+
+
+</body>
+
+</html>
